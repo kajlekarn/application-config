@@ -1,1 +1,16 @@
-
+# spring:
+#   jpa:
+#     hibernate:
+#       dialect: org.hibernate.dialect.MySQLDialect
+#       ddl-auto: update
+#     properties:
+#       hibernate:
+#         format-sql: false
+#         show-sql: true
+# EUREKA
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      register-with-eureka: true
+      fetch-registry: true
