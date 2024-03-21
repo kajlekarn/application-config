@@ -1,17 +1,17 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/review_ms_db?useSSl=true
-    username: root
-    password:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-      dialect: org.hibernate.dialect.MySQLDialect
-    properties:
-      hibernate:
-        show-sql: true
-        format-sql: false
+# spring:
+#   datasource:
+#     url: jdbc:mysql://localhost:3306/review_ms_db?useSSl=true
+#     username: root
+#     password:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#       dialect: org.hibernate.dialect.MySQLDialect
+#     properties:
+#       hibernate:
+#         show-sql: true
+#         format-sql: false
 eureka:
   client:
     service-url:
